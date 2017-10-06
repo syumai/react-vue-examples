@@ -12,6 +12,11 @@ module.exports = {
     extensions: ['.js', '.jsx', '.vue']
   },
 
+  devServer: {
+    contentBase: path.join(__dirname,'dist'),
+    port: 9090
+  },
+
   module: {
     rules: [
       {
